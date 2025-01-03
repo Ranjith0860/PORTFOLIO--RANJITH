@@ -312,3 +312,74 @@ footer button img{
     color: #100f0f; /* Text color */
     font-family: Arial, sans-serif; /* Font style */
 }
+@media (max-width: 1200px) {
+    .left-container, .right-container {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+    .left-container {
+        padding: 1rem;
+    }
+    .right-container {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .circle:nth-child(2) {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 992px) {
+    .navlist {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+    .circle:nth-child(2) {
+        width: 70%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .content h1 {
+        font-size: 2.5rem;
+    }
+    .content .HOME {
+        font-size: 1rem;
+    }
+    .circle:nth-child(2) {
+        width: 60%;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .icons {
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .icons .fa-brands {
+        font-size: 1.2rem;
+    }
+    .circle:nth-child(2) {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media (max-width: 360px) {
+    .content h1 {
+        font-size: 2rem;
+    }
+    .content .HOME {
+        font-size: 0.9rem;
+    }
+    .circle:nth-child(2) {
+        width: 40%;
+        height: auto;
+    }
+}
